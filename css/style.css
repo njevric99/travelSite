@@ -292,6 +292,10 @@ body {
   background-size: cover;
 }
 
+.cuttoff h2 {
+  text-transform: uppercase;
+}
+
 .cuttoff .travel-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,7 +313,7 @@ body {
 }
 
 .cuttoff .color-bg {
-  background-image: linear-gradient(135deg, rgba(0, 147, 175, 0.901961) 0%, rgba(0, 147, 175, 0.301961) 100%);
+  background-image: linear-gradient(135deg, rgba(0, 147, 175, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
   width: 100vw;
 }
 
@@ -330,6 +334,10 @@ body {
   margin: 20px;
   background-color: #ffffff;
   width: 300px;
+}
+
+.cuttoff .item-1 h3, .cuttoff .item-2 h3, .cuttoff .item-3 h3, .cuttoff .item-4 h3 {
+  text-transform: uppercase;
 }
 
 .cuttoff .item-1 p, .cuttoff .item-2 p, .cuttoff .item-3 p, .cuttoff .item-4 p {
